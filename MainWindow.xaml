@@ -148,6 +148,7 @@
                                 <CheckBox Name="Installnodejslts" Content="NodeJS LTS" Margin="5,0"/>
                                 <CheckBox Name="Installpython3" Content="Python3" Margin="5,0"/>
                                 <CheckBox Name="Installrustlang" Content="Rust" Margin="5,0"/>
+                                <CheckBox Name="Installgolang" Content="GoLang" Margin="5,0"/>
                                 <CheckBox Name="Installsublime" Content="Sublime" Margin="5,0"/>
                                 <CheckBox Name="Installunity" Content="Unity Game Engine" Margin="5,0"/>
                                 <CheckBox Name="Installvisualstudio" Content="Visual Studio 2022" Margin="5,0"/>
@@ -334,7 +335,7 @@
 							    <ComboBox Name="changedns"  Height = "20" Width = "150" HorizontalAlignment = "Left" Margin="5,5"> 
 								    <ComboBoxItem IsSelected="True" Content = "Default"/> 
 								    <ComboBoxItem Content = "Google"/> 
-								    <ComboBoxItem Content = "Cloud Flare"/> 
+								    <ComboBoxItem Content = "Cloudflare"/> 
 								    <ComboBoxItem Content = "Level3"/> 
 								    <ComboBoxItem Content = "Open DNS"/> 
 							    </ComboBox> 
